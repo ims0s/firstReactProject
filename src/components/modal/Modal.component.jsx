@@ -5,7 +5,7 @@ function Modal(porps) {
             <div class="modal-dialog p-0  modal-dialog-centered">
                 <div class="modal-content">
                     
-                    <div class="modal-body p-0 rounded-3 overflow-hidden ">
+                    <div class="modal-body p-0 rounded-3 overflow-hidden ذذ">
                         <img src={image} className="w-100 " alt="" />
                     </div>
                 </div>
