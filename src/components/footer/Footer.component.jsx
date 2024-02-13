@@ -13,7 +13,7 @@ function Footer() {
                     </div>
                     <div className="col-sm-4 text-center">
                         <h3 className="text-uppercase ">Around the web</h3>
-                        <div className="d-flex flex-wrap  justify-content-around  ">
+                        <div className="d-flex flex-wrap  justify-content-center gap-3  ">
                             <div className="icon-container border-1 border-white ">
                                 <i className="fa-brands fa-facebook"></i>
                             </div>

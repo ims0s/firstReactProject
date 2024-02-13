@@ -7,6 +7,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import Home from './components/home/Home.component';
 import MainLayout from './layout/mainLayout/mainLayout.layout';
 import About from './components/about/About.component';
+import Portfolio from './components/portfolio/Portfolio.component';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         {
             path: "/", element: <MainLayout />, children: [
                 { index: true, element: <Home /> },
-                {path:"about" , element:<About />}
+                {path:"about" , element:<About />},
+                {path:"portfolio",element:<Portfolio />}
             ]
         }
     ])
