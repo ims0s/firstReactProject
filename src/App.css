@@ -9,6 +9,7 @@
 
 .nav-link-active:is(.active) {
     background-color: var(--main-bg);
+    width: fit-content !important;
 }
 
 .bg-main {
@@ -31,4 +32,13 @@
     background-color: white;
     height: 4px;
     width: 80px;
+}
+.icon-container {
+    border: 1px solid white;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
