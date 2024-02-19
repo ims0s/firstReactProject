@@ -8,6 +8,7 @@ import Home from './components/home/Home.component';
 import MainLayout from './layout/mainLayout/mainLayout.layout';
 import About from './components/about/About.component';
 import Portfolio from './components/portfolio/Portfolio.component';
+import Contact from './components/contact/Contact.compnonent';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
             path: "/", element: <MainLayout />, children: [
                 { index: true, element: <Home /> },
                 {path:"about" , element:<About />},
-                {path:"portfolio",element:<Portfolio />}
+                {path:"portfolio",element:<Portfolio />},
+                {path:"contact", element:<Contact/>}
             ]
         }
     ])

@@ -54,9 +54,30 @@
     font-size: 72px !important;
     color: white;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 0.2s;
 }
 .hover-image:hover{
     opacity: 75%;
     cursor: pointer;
+}
+.label{
+    position: relative;
+    top: 0;
+    z-index: 0;
+    transition: top 0.5s;
+    color: var(--main-bg);
+}
+.form-control{
+    position: relative;
+    z-index: 1;
+    border: 0 solid transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322) !important;
+}
+
+.label-hide{
+    top: 50%;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
 }
